@@ -1,0 +1,30 @@
+
+#wf-container{
+    border: 1px solid black;
+    height: 900px;
+    position: relative;
+}
+#wf-container>*{
+    position: absolute;
+}
+.graph-start{
+    width: 30px;
+    height: 30px;
+    border: 2px solid darkorange;
+    background: orange;
+    border-radius: 50%;
+}
+
+.graph-task{
+    width: 130px;
+    height: 50px;
+    border: 2px solid olivedrab;
+    background: lightcyan;
+}
+
+.graph-group{
+    width: 190px;
+    height: 150px;
+    border: 2px solid olivedrab;
+    background: lightcyan;
+}
